@@ -1,6 +1,14 @@
-root:{
-	--background-color: ;
-	--main-color: ;
-	--accent-color: ;
-	--text-color: ;
+:root {
+	--background-color: blue();
+	--main-color: blue();
+	--accent-color-bg: rgb(40, 55, 70);
+	--accent-color: rgb(54, 190, 248);
+	--text-color: blue();
+	
+}
+
+.test-accent{
+	color: var(--accent-color);
+	background-color: var(--accent-color-bg);
+	padding: 30px;
 }
