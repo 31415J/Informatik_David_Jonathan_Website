@@ -11,26 +11,26 @@
 
 	<script>
 
-	var r = document.querySelector(':root');
+		var r = document.querySelector(':root');
+		var ishover = document.querySelector(':root');
 
-// Create a function for getting a variable value
 	function myFunction_get() {
-  // Get the styles (properties and values) for the root
+
   		var rs = getComputedStyle(r);
-  // Alert the value of the --primary-bg-color variable
-  		alert("The value of --primary-bg-color is: " + rs.getPropertyValue('--primary-bg-color'));
+
+  		alert("The value of --sidebar-width is: " + rs.getPropertyValue('--sidebar-width'));
 }
 
-// Create a function for setting a variable value
-	function myFunction_set() {
-  // Set the value of variable --primary-bg-color to another value (in this case "green")
-  		r.style.setProperty('--primary-bg-color', 'green');
+
+	function myFunction_set(width) {
+
+  		r.style.setProperty('--sidebar-width', width);
 }
 </script>
 </head>
 <body>
 
-	<div class="menubar">
+	<div class="menubar" onmouseover="myFunction_set('25%')">
 
 		<div class="heading">Website Name</div>
 		<div class="menubar-element">
@@ -54,7 +54,8 @@
 
 
 
-	<div class="content">
+	<div class="content" onmouseover="myFunction_set('5%')">
+		
 
 		<div class="test-accent">
 			hallo
