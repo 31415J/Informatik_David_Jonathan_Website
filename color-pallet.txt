@@ -1,0 +1,6 @@
+Background-color : rgb(28,28,40); 
+Menu-Bar : rgb(25, 40, 60);
+Heading-color : rgb(240,240,240);
+h2-color : rgb(230,230,230);
+h3-color : rgb(220,220,220);
+border-radus : 15px
