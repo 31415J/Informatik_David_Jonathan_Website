@@ -1,14 +1,51 @@
 :root {
 	--background-color: blue();
 	--main-color: blue();
+	--menubar-color-bg: rgb(32, 43, 54);
 	--accent-color-bg: rgb(40, 55, 70);
 	--accent-color: rgb(54, 190, 248);
 	--text-color: blue();
 	
 }
 
+body{
+	background-color: var(--background-color);
+}
+
+
+
 .test-accent{
 	color: var(--accent-color);
 	background-color: var(--accent-color-bg);
 	padding: 30px;
 }
+
+
+
+.menubar{
+	position: fixed;
+	float: left;
+	padding: 5px;
+	display: flex;
+	background-color: var(--menubar-color-bg);
+	flex-direction: column;
+	gap: 5px;
+	height: 100%;
+	justify-content: left;
+}
+
+.menubar-element {
+	background-color: var(--accent-color-bg);
+	color: var(--accent-color);
+	padding: 25px;
+	
+}
+
+.menubar-element .menubar-element-title {
+	display: none;
+}
+
+.menubar-element:hover .menubar-element-title{
+	display: block;
+}
+
