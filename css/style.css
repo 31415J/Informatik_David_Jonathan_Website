@@ -14,11 +14,6 @@ body{
 
 
 
-.test-accent{
-	color: var(--accent-color);
-	background-color: var(--accent-color-bg);
-	padding: 30px;
-}
 
 
 
@@ -43,9 +38,14 @@ body{
 
 .menubar-element .menubar-element-title {
 	display: none;
+	transition-duration: 0.3s;
 }
 
-.menubar-element:hover .menubar-element-title{
-	display: block;
+.menubar:hover .menubar-element .menubar-element-title{
+	display: inline;
+	float: center;
+	padding: 30px;
+	margin: 20px;
+
 }
 
