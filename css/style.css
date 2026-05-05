@@ -1,23 +1,52 @@
 :root {
-	--background-color: blue();
+	--background-color: rgb(28,28,40);
 	--main-color: blue();
-	--menubar-color-bg: rgb(32, 43, 54);
+	--menubar-color-bg: rgb(25, 40, 60);
 	--accent-color-bg: rgb(40, 55, 70);
 	--accent-color: rgb(54, 190, 248);
-	--text-color: blue();
+	--text-color: rgb(240,240,240);
+
+	--sidebar-width: 5%;
 	
 }
 
+
 body{
 	background-color: var(--background-color);
+	padding: 0;
+	margin: 0;
+}
+
+
+/* Icons */
+
+.material-symbols-rounded {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 600,
+  'GRAD' 400,
+  'opsz' 20,
+}
+
+
+
+
+/* Text */
+
+.menubar .heading{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 2vw;
+	color: var(--text-color);
 }
 
 
 
 
 
+/*menubar*/
 
 .menubar{
+	width: var(--sidebar-width);
 	position: fixed;
 	float: left;
 	padding: 5px;
@@ -32,7 +61,7 @@ body{
 .menubar-element {
 	background-color: var(--accent-color-bg);
 	color: var(--accent-color);
-	padding: 25px;
+	padding: 15px;
 	
 }
 
@@ -42,10 +71,20 @@ body{
 }
 
 .menubar:hover .menubar-element .menubar-element-title{
+	
+	--sidebar-width= 15%;
 	display: inline;
-	float: center;
-	padding: 30px;
-	margin: 20px;
 
 }
+.menubar-element span{
+	scale: 1;
+}
 
+
+
+/*Main content */
+
+
+.content {
+	margin-left: calc(var(--sidebar-width) + 20px);
+}
