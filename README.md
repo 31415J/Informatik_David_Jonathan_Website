@@ -1,2 +1,5 @@
 # Informatik_David_Jonathan_Website
-The Website that we develop for IT in school
+The Website that we develop for IT-lessons in school
+
+
+
