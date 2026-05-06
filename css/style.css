@@ -72,7 +72,7 @@ body{
 
 .menubar:hover .menubar-element .menubar-element-title{
 	
-	--sidebar-width= 15%;
+
 	display: inline;
 
 }

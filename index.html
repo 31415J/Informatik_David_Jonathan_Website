@@ -9,28 +9,12 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=home" />
 	<title>Meine Tolle Webite</title>
 
-	<script>
 
-		var r = document.querySelector(':root');
-		var ishover = document.querySelector(':root');
-
-	function myFunction_get() {
-
-  		var rs = getComputedStyle(r);
-
-  		alert("The value of --sidebar-width is: " + rs.getPropertyValue('--sidebar-width'));
-}
-
-
-	function myFunction_set(width) {
-
-  		r.style.setProperty('--sidebar-width', width);
-}
-</script>
 </head>
 <body>
 
-	<div class="menubar" onmouseover="myFunction_set('25%')">
+
+	<div class="menubar">
 
 		<div class="heading">Website Name</div>
 		<div class="menubar-element">
@@ -54,7 +38,7 @@
 
 
 
-	<div class="content" onmouseover="myFunction_set('5%')">
+	<div class="content">
 		
 
 		<div class="test-accent">
