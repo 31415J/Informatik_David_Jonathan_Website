@@ -1,12 +1,83 @@
+
+/* Google font stuff */
+/* can be deleted
+Just in case sth. is broken 
+
+.chakra-petch-light {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.chakra-petch-regular {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.chakra-petch-medium {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.chakra-petch-semibold {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.chakra-petch-bold {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.chakra-petch-light-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.chakra-petch-regular-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.chakra-petch-medium-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.chakra-petch-semibold-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.chakra-petch-bold-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+*/
+
+
+
+
+
 :root {
 	--background-color: rgb(28,28,40);
 	--main-color: blue();
 	--menubar-color-bg: rgb(25, 40, 60);
 	--accent-color-bg: rgb(40, 55, 70);
 	--accent-color: rgb(54, 190, 248);
-	--text-color: rgb(240,240,240);
-
-	--sidebar-width: 5%;
+	--text-color-heading: rgb(240,240,240);
+	--text-color: rgb(230,230,230);
+	--sidebar-width: 250px;
 	
 }
 
@@ -31,12 +102,15 @@ body{
 
 
 
+
 /* Text */
 
 .menubar .heading{
-	font-family: 'Courier New', Courier, monospace;
-	font-size: 2vw;
-	color: var(--text-color);
+	font-family: "Chakra Petch", Courier, monospace;
+  	font-weight: 600;
+  	font-style: normal;
+	font-size: 1.7vw;
+	color: var(--text-color-heading);
 }
 
 
@@ -87,4 +161,5 @@ body{
 
 .content {
 	margin-left: calc(var(--sidebar-width) + 20px);
+	color: var(--text-color);
 }
