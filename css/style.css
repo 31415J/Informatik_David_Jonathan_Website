@@ -84,6 +84,7 @@ Just in case sth. is broken
 	--text-color-heading: rgb(240,240,240);
 	--text-color: rgb(230,230,230);
 
+
   --selection: rgb(28,28,40);;
   --selection-bg: rgb(240,240,240);
 
@@ -96,6 +97,37 @@ Just in case sth. is broken
 
   --border-radius-slight: 10px;
 	
+  /* Dark Mode: (later with js) */
+
+	--background-color-dark: rgb(28,28,40);
+	--main-color-dark: blue();
+
+	--menubar-color-bg-dark: rgb(25, 40, 60);
+  --menubar-color-bg-hover-dark: rgb(38, 62, 94);
+
+	--accent-color-bg-dark: rgb(40, 55, 70);
+	--accent-color-bg-hover-dark: rgb(59, 81, 103);
+	--accent-color-dark: rgb(54, 190, 248);
+  --accent-color-hover-dark: rgb(97, 202, 248);
+
+	--text-color-heading-dark: rgb(240,240,240);
+
+  --text-color-dark: rgb(10,20,30);
+
+  --selection: rgb(28,28,40);;
+  --selection-bg: rgb(240,240,240);
+
+  --transparent: rgba(255,255,255,0);
+
+
+
+	--sidebar-width: 58px;
+  --header-height: 135px;
+
+  --border-radius-slight: 10px;
+
+
+
 }
 
 
@@ -250,22 +282,25 @@ header .heading {
 
 .menubar a .menubar-element-title {
 
-  transform: translateX(-80px);
+  transform: translateX(-180px);
   display: inline-flex;
   text-align: center;
   color: rgba(0, 0, 0, 0);
 	transition-duration: 0.3s;
   transition-delay: 400ms;
+
   
 }
 
 .menubar:hover a .menubar-element-title{
-  transform: translateX(30px);
+  transform: translateX(20px);
   display: inline-flex;
-  font-size: 18px;
+  font-size: 24px;
 	color: var(--text-color);
   font-family: Ubuntu, Arial, Helvetica, sans-serif;
   text-overflow: none;
+  line-height: 1.2;
+  
 
 
 }
@@ -308,3 +343,23 @@ header{
   padding: 25px;
 }
 
+
+.test-palette-main{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+
+
+  
+}
+
+.test-palette{
+  justify-content: center; 
+  padding: 15px; 
+  flex-grow: 1;
+  border-radius: var(--border-radius-slight);
+  
+
+
+}
