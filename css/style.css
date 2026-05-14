@@ -121,8 +121,8 @@ Just in case sth. is broken
 	--text-color-heading-dark: rgb(240,240,240);
 	--text-color-dark: rgb(230,230,230);
 
-  --selection: rgb(28,28,40);;
-  --selection-bg: rgb(240,240,240);
+  --selection: rgb(163, 226, 213);;
+  --selection-bg: rgb(5, 46, 47);
 
   --transparent: rgba(255,255,255,0);
 
@@ -321,6 +321,11 @@ header .heading {
   display: flexbox;
   scale: 1.3;
 }
+.menubar:hover a .icon .search{
+	transition-delay: 0.5s;
+  transition: 0.3s;
+}
+
 
 /*
 .menubar-element .icon{
@@ -355,6 +360,14 @@ header .heading {
 
 }
 
+.menubar-element-title input{
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border: 0;
+  border-radius: 30px;
+  padding: 10px;
+}
+
 .menubar a:hover{
 
   background-color: var(--accent-color-bg-hover);   
@@ -364,6 +377,12 @@ header .heading {
 }
 
 
+
+.menubar-element-title input img{
+  margin: 0;
+  padding: 0;
+
+}
 
 
 .menubar:hover {
@@ -478,7 +497,7 @@ header{
   bottom: 15px;
   right: 15px;
   border-style:outset;
-  border: 3px;
+  border: 0px;
   border-color: aquamarine;
   
 }
@@ -502,6 +521,16 @@ header{
   display: block;
 }
 
+.buttons{
+  background-color: var(--accent-color-bg-dark);
+  width: 114px;
+  height: 54px;
+  right: 13px;
+  bottom: 13px;
+  border-radius: 500px;
+  position: fixed;
+  padding: 0;
+}
 
 
 footer{
