@@ -143,6 +143,42 @@ Just in case sth. is broken
 
 }
 
+.darkmode {
+		--background-color:  rgb(28,28,40);
+    --main-color: blue();
+
+    --menubar-color-bg: rgb(25, 40, 60);
+    --menubar-color-bg-hover: rgb(38, 62, 94);
+
+    --accent-color-bg: rgb(40, 55, 70);
+    --accent-color-bg-hover: rgb(59, 81, 103);
+    --accent-color: rgb(54, 190, 248);
+    --accent-color-hover: rgb(97, 202, 248);
+
+    --text-color-heading: rgb(240,240,240);
+
+    
+    --text-color: rgb(230,230,230);
+
+
+    --selection: rgb(28,28,40);;
+    --selection-bg: rgb(240,240,240);
+
+    --transparent: rgba(255,255,255,0);
+
+
+
+    --sidebar-width: 58px;
+    --header-height: 135px;
+
+    --border-radius-slight: 10px;
+
+    --invert-icon: 0.2;
+    --sepia-icon: 1;
+    --saturate-icon: 5;
+    --hue-rotate-icon: 175deg;
+}
+
 
 body{
 	background-color: var(--background-color);
@@ -241,6 +277,7 @@ header .heading {
 	width: var(--sidebar-width);
 	position: sticky;
   top: 10px; 
+  
 	float: left;
 	padding: 5px;
 	display: flex;
@@ -383,25 +420,25 @@ header{
   margin: 15px;
 }
 
-
+/*
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--background-color: rgb(220, 228, 235);
+		--background-color:  rgb(28,28,40);
     --main-color: blue();
 
-    --menubar-color-bg: rgb(205, 209, 215);
-    --menubar-color-bg-hover: rgb(150, 162, 178);
+    --menubar-color-bg: rgb(25, 40, 60);
+    --menubar-color-bg-hover: rgb(38, 62, 94);
 
-    --accent-color-bg: rgb(187, 203, 218);
-    --accent-color-bg-hover: rgb(180, 196, 212);
+    --accent-color-bg: rgb(40, 55, 70);
+    --accent-color-bg-hover: rgb(59, 81, 103);
     --accent-color: rgb(54, 190, 248);
     --accent-color-hover: rgb(97, 202, 248);
 
-    --text-color-heading: rgb(35, 37, 37);
+    --text-color-heading: rgb(240,240,240);
 
     
-    --text-color: rgb(10,20,30);
+    --text-color: rgb(230,230,230);
 
 
     --selection: rgb(28,28,40);;
@@ -416,9 +453,66 @@ header{
 
     --border-radius-slight: 10px;
 
-    --invert-icon: 1;
+    --invert-icon: 0.2;
     --sepia-icon: 1;
     --saturate-icon: 5;
     --hue-rotate-icon: 175deg;
 	}
+}
+
+
+*/
+
+
+/*button*/
+#theme-switch{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: var(--accent-color-bg);
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  border-style:outset;
+  border: 3px;
+  border-color: aquamarine;
+  
+}
+
+#theme-switch:hover{
+  background-color: var(--accent-color-bg-hover);
+}
+
+#theme-switch svg{
+  fill: var(--text-color);
+}
+
+#theme-switch svg:last-child{
+  display: none;
+}
+
+.darkmode #theme-switch svg:first-child{
+  display: none;
+}
+.darkmode #theme-switch svg:last-child{
+  display: block;
+}
+
+
+
+footer{
+  background-color: var(--accent-color-bg);
+
+ 
+
+  position: relative;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  color: var(--text-color);
+  line-height: 1.4;
 }
