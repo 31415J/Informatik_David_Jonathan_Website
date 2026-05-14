@@ -70,19 +70,21 @@ Just in case sth. is broken
 
 
 :root {
-	--background-color: rgb(28,28,40);
+	--background-color: rgb(220, 228, 235);
 	--main-color: blue();
 
-	--menubar-color-bg: rgb(25, 40, 60);
-  --menubar-color-bg-hover: rgb(38, 62, 94);
+	--menubar-color-bg: rgb(205, 209, 215);
+  --menubar-color-bg-hover: rgb(150, 162, 178);
 
-	--accent-color-bg: rgb(40, 55, 70);
-	--accent-color-bg-hover: rgb(59, 81, 103);
+	--accent-color-bg: rgb(187, 203, 218);
+	--accent-color-bg-hover: rgb(180, 196, 212);
 	--accent-color: rgb(54, 190, 248);
   --accent-color-hover: rgb(97, 202, 248);
 
-	--text-color-heading: rgb(240,240,240);
-	--text-color: rgb(230,230,230);
+	--text-color-heading: rgb(35, 37, 37);
+
+  
+  --text-color: rgb(10,20,30);
 
 
   --selection: rgb(28,28,40);;
@@ -96,6 +98,12 @@ Just in case sth. is broken
   --header-height: 135px;
 
   --border-radius-slight: 10px;
+
+  --invert-icon: 1;
+  --sepia-icon: 1;
+  --saturate-icon: 5;
+  --hue-rotate-icon: 175deg;
+
 	
   /* Dark Mode: (later with js) */
 
@@ -111,8 +119,7 @@ Just in case sth. is broken
   --accent-color-hover-dark: rgb(97, 202, 248);
 
 	--text-color-heading-dark: rgb(240,240,240);
-
-  --text-color-dark: rgb(10,20,30);
+	--text-color-dark: rgb(230,230,230);
 
   --selection: rgb(28,28,40);;
   --selection-bg: rgb(240,240,240);
@@ -125,6 +132,12 @@ Just in case sth. is broken
   --header-height: 135px;
 
   --border-radius-slight: 10px;
+
+  --invert-icon-dark: 0.2;
+  --sepia-icon-dark: 1;
+  --saturate-icon-dark: 5;
+  --hue-rotate-icon-dark: 175deg;
+
 
 
 
@@ -201,7 +214,7 @@ html {
 /* Text */
 
 header .heading {
-  color: aliceblue;
+  color: var(--text-color-heading);
   font-size: calc( var(--header-height) - 30px );
   font-family: Audiowide;
   margin: 0px;
@@ -260,12 +273,12 @@ header .heading {
 	color: var(--accent-color);
 	padding: 15px;
   display: inline-flex;
-	
+
 }
 */
 .menubar a .icon{
 	text-align: center;
-	filter: invert(0.2) sepia(1) saturate(5) hue-rotate(175deg);
+	filter: invert(var(--invert-icon)) sepia(var(--sepia-icon)) saturate(var(--saturate-icon)) hue-rotate(var(--hue-rotate-icon));
   float: left;
   vertical-align: middle;
   display: flexbox;
@@ -327,6 +340,7 @@ header{
   height: var(--header-height);
   width: 100%;
 
+
 }
 
 
@@ -359,7 +373,52 @@ header{
   padding: 15px; 
   flex-grow: 1;
   border-radius: var(--border-radius-slight);
+  text-align: center;
   
 
 
+}
+.test-palette img{
+  scale: 2;
+  margin: 15px;
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background-color: rgb(220, 228, 235);
+    --main-color: blue();
+
+    --menubar-color-bg: rgb(205, 209, 215);
+    --menubar-color-bg-hover: rgb(150, 162, 178);
+
+    --accent-color-bg: rgb(187, 203, 218);
+    --accent-color-bg-hover: rgb(180, 196, 212);
+    --accent-color: rgb(54, 190, 248);
+    --accent-color-hover: rgb(97, 202, 248);
+
+    --text-color-heading: rgb(35, 37, 37);
+
+    
+    --text-color: rgb(10,20,30);
+
+
+    --selection: rgb(28,28,40);;
+    --selection-bg: rgb(240,240,240);
+
+    --transparent: rgba(255,255,255,0);
+
+
+
+    --sidebar-width: 58px;
+    --header-height: 135px;
+
+    --border-radius-slight: 10px;
+
+    --invert-icon: 1;
+    --sepia-icon: 1;
+    --saturate-icon: 5;
+    --hue-rotate-icon: 175deg;
+	}
 }
