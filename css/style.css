@@ -366,6 +366,9 @@ header .heading {
   border: 0;
   border-radius: 30px;
   padding: 10px;
+
+  display: inline-flex;
+  width: 120px;
 }
 
 .menubar a:hover{
