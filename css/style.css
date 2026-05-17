@@ -363,12 +363,14 @@ header .heading {
 .menubar-element-title input{
   background-color: var(--background-color);
   color: var(--text-color);
-  border: 0;
+
   border-radius: 30px;
   padding: 10px;
-
-  display: inline-flex;
+  border: 0;
+  position: sticky;
+  letter-spacing: 2px;
   width: 120px;
+
 }
 
 .menubar a:hover{
