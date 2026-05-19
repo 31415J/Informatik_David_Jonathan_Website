@@ -30,6 +30,12 @@
 
 </head>
 <body class="darkmode">
+
+	<div class="cookie-banner">
+		Be suprised, we do indeediously do uses cookies,... but only few, we promise. So here is our offer: Do you except our delicous, just out of the oven, creamy, chocolate cookies? ...That contain your data... no, take that out!
+		<button>Accept</button>
+	</div>
+
 	<header>
 
 		<div class="heading">
@@ -52,7 +58,8 @@
 				
 
 				<div class="menubar-element-title">
-					<input type="text" placeholder="search.."></input>
+					<!-- oninput="cookie_sign()" onkeydown="cookie_sign()" onblur="cookie_sign()" onfocus="cookie_sign()"-->
+					<input type="text" placeholder="search.." ></input>
 				</div>
 
 
@@ -85,6 +92,17 @@
 		</div>
 		</a>
 		<a href="https://www.apple.com">
+			<div class="menubar-element">
+				<div class="icon">
+					<img src="Icons/image_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="Impressum icon">
+				</div>
+				<div class="menubar-element-title">
+					Images
+				</div>
+			</div>
+		</a>
+
+		<a href="https://www.apple.com">
 		<div class="menubar-element">
 			<div class="icon">
 				<img src="Icons/contacts_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="Impressum icon">
@@ -94,13 +112,14 @@
 			</div>
 		</div>
 
+		
 		<a href="https://www.apple.com">
 			<div class="menubar-element">
 				<div class="icon">
-					<img src="Icons/image_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="Impressum icon">
+					<img src="Icons/automation_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="Sitemap icon">
 				</div>
 				<div class="menubar-element-title">
-					Images
+					Sitemap
 				</div>
 			</div>
 		</a>
@@ -168,7 +187,7 @@
 		element.classList.toggle("darkmode")
 	}
 	function cookie_sign(){
-		window.alert("This Website doesn't use cookies at all (right now) :-)");
+		window.alert("Be suprised, we do indeediously do uses cookies,... but only few, we promise. So here is our offer: Do you except our delicous, just out of the oven, creamy, chocolate cookies? ...That contain your data... no, take that out!");
 	}
 </script>
 	

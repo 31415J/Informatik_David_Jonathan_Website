@@ -85,7 +85,7 @@ Just in case sth. is broken
 
   
   --text-color: rgb(10,20,30);
-
+  --text-color-light: rgb(10,20,30);
 
   --selection: rgb(28,28,40);;
   --selection-bg: rgb(240,240,240);
@@ -121,6 +121,7 @@ Just in case sth. is broken
 	--text-color-heading-dark: rgb(240,240,240);
 	--text-color-dark: rgb(230,230,230);
 
+
   --selection: rgb(163, 226, 213);;
   --selection-bg: rgb(5, 46, 47);
 
@@ -137,6 +138,7 @@ Just in case sth. is broken
   --sepia-icon-dark: 1;
   --saturate-icon-dark: 5;
   --hue-rotate-icon-dark: 175deg;
+  --overlay-color-bg: rgba(10, 20, 30, 0.9)
 
 
 
@@ -177,6 +179,7 @@ Just in case sth. is broken
     --sepia-icon: 1;
     --saturate-icon: 5;
     --hue-rotate-icon: 175deg;
+    --overlay-color-bg: rgba(20, 30, 50, 0.6)
 }
 
 
@@ -445,7 +448,7 @@ header{
   margin: 15px;
 }
 
-
+/*
 
 @media (prefers-color-scheme: dark) {
 	:root {
@@ -549,3 +552,48 @@ footer{
   line-height: 1.4;
   text-align: center;
 }
+
+
+.cookie-banner {
+  background-color: var(--overlay-color-bg);
+  color: var(--text-color-dark);
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  z-index: 9;
+  width: 100%;
+  height: 35px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  backdrop-filter: blur(15px);
+  vertical-align: middle;
+
+}
+
+.cookie-banner button{
+  border-radius: 50px;
+  border: 3px var(--accent-color-bg-dark);
+  background-color: var(--accent-color);
+  color: var(--text-color-light);
+  height: inherit;
+  width: 70px;
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+  margin-left: 40px;
+  transition-duration: 0.1s;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+
+  
+}
+
+
+.cookie-banner button:hover{
+
+  background-color: var(--accent-color-hover);
+
+}
+
