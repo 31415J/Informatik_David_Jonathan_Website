@@ -184,6 +184,7 @@ body{
 	background-color: var(--background-color);
 	padding: 0;
 	margin: 0;
+  transition-duration: 0.3s;
 }
 
 body::selection{
@@ -444,7 +445,7 @@ header{
   margin: 15px;
 }
 
-/*
+
 
 @media (prefers-color-scheme: dark) {
 	:root {
@@ -483,9 +484,6 @@ header{
     --hue-rotate-icon: 175deg;
 	}
 }
-
-
-*/
 
 
 /*button*/
@@ -549,4 +547,5 @@ footer{
   padding: 20px;
   color: var(--text-color);
   line-height: 1.4;
+  text-align: center;
 }
