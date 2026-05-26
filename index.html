@@ -33,7 +33,8 @@
 
 	<div class="cookie-banner">
 		Be suprised, we do indeediously do uses cookies,... but only few, we promise. So here is our offer: Do you except our delicous, just out of the oven, creamy, chocolate cookies? ...That contain your data... no, take that out!
-		<button>Accept</button>
+		<button class="cookie_accept">Accept</button>
+		<button class="cookie-refuse" style="background-color: grey; " onclick="refuse_cookie_banner()">Refuse</button>
 	</div>
 
 	<header>
@@ -182,6 +183,7 @@
 
 
 <script>
+
 	function trigger_theme_switch(){
 		var element = document.body;
 		element.classList.toggle("darkmode")
@@ -189,8 +191,17 @@
 	function cookie_sign(){
 		window.alert("Be suprised, we do indeediously do uses cookies,... but only few, we promise. So here is our offer: Do you except our delicous, just out of the oven, creamy, chocolate cookies? ...That contain your data... no, take that out!");
 	}
+	function search(){
+		window.alert("You searched for [put search here] and we ourself cant find it either :( . Or maybe we are just to lazy to make it function.");
+	}
+	function refuse_cookie_banner(){
+		window.alert("ouch! you have seen the refuse button. GRRR EU-regulations!");
+		window.open("https://www.404.org/", "mozillaWindow", "popup");
+		window.close();
+	}
+
 </script>
-	
+<script src="main.js"></script>
 	
 
 	
