@@ -378,6 +378,13 @@ header .heading {
 
 }
 
+.menubar-element:active {
+  
+  background-color: var(--accent-color-bg-hover);   
+}
+
+
+
 .menubar a:hover{
 
   background-color: var(--accent-color-bg-hover);   
@@ -415,13 +422,100 @@ header{
 /*Main content */
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .content {
 	margin-left: calc(var(--sidebar-width) + 20px);
   /*margin-top: var(--header-height);*/
   color: var(--text-color);
-  font-family: Lora, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   padding: 25px;
 }
+
+
+
+.content h1 {
+  font-size: 3vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .test-palette-main{
