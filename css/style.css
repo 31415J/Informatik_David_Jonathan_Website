@@ -485,20 +485,33 @@ header{
 
 .content-gallery-container{
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-wrap:wrap;
+
+
+  text-align: center;
+  gap: 10px;
   
 }
 .content-gallery-container-box{
-  width: 33%;
+  max-width: 30%;
+  min-width: 25%;
   background-color: var(--accent-color-bg);
-  padding: 20px;
-  border-radius: 20px;
+  padding: 10px;
+  border-radius: calc(var(--border-radius-slight) + 5px);
+
 }
 
 
-
-
+.content-gallery-container-box img{
+  width: 100%;
+  height: calc(100% - 60px);
+  background-color: var(--background-color);
+  border-radius: calc(var(--border-radius-slight) + 3px);
+  margin-bottom: 0;
+  object-fit: cover;
+  transition: 0.3s;
+}
 
 
 

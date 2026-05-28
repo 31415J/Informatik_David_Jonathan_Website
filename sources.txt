@@ -41,3 +41,18 @@ link: https://fonts.google.com
 
 https://en.wikipedia.org/wiki/Blender_(software): My genaral source.
 "general 3D modeling, animation, digital sculpting, visual effects, rendering, compositing, motion tracking, drawing, 2D animation and video editing. It is widely used to create animated films, visual effects, art, 3D-printed models, motion graphics, interactive 3D applications, virtual reality, and 3D models for video games."
+
+
+
+
+Images:
+
+title/name: (Anim) 03 Sierra Dragon by Pepe Sanchez
+license: CC-BY   link: https://creativecommons.org/licenses/by/4.0/
+author: Daniel Martinez Lara    link: /
+download: 28.05.2026 20:34
+created: ?
+description: A Sample iamge for the drawing and grease pencil
+link: https://studio.blender.org/training/grease-pencil-fundamentals/612412fb92d84ca3d667c874/
+
+
