@@ -95,7 +95,7 @@ Just in case sth. is broken
 
 
 	--sidebar-width: 58px;
-  --header-height: 135px;
+  --header-height: 5vw;
 
   --border-radius-slight: 10px;
 
@@ -129,8 +129,6 @@ Just in case sth. is broken
 
 
 
-	--sidebar-width: 58px;
-  --header-height: 135px;
 
   --border-radius-slight: 10px;
 
@@ -170,8 +168,6 @@ Just in case sth. is broken
 
 
 
-    --sidebar-width: 58px;
-    --header-height: 135px;
 
     --border-radius-slight: 10px;
 
@@ -466,7 +462,39 @@ header{
   font-size: 3vw;
 }
 
+.content h2 {
+  font-size: 2vw;
+  margin: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  
+}
 
+.content-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.content-box{
+  background-color: var(--accent-color-bg);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.content-gallery-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.content-gallery-container-box{
+  width: 33%;
+  background-color: var(--accent-color-bg);
+  padding: 20px;
+  border-radius: 20px;
+}
 
 
 
