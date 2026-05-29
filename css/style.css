@@ -487,18 +487,18 @@ header{
   display: flex;
   justify-content: center;
   flex-wrap:wrap;
-
+  
 
   text-align: center;
   gap: 10px;
   
 }
 .content-gallery-container-box{
-  max-width: 30%;
-  min-width: 25%;
+
   background-color: var(--accent-color-bg);
   padding: 10px;
   border-radius: calc(var(--border-radius-slight) + 5px);
+  width: 500px;
 
 }
 
