@@ -1,5 +1,19 @@
 Blender is our favorite Software for,... everything basically… it is used for "general 3D modeling, animation, digital sculpting, visual effects, rendering, compositing, motion tracking, drawing, 2D animation and video editing. It is widely used to create animated films, visual effects, art, 3D-printed models, motion graphics, interactive 3D applications, virtual reality, and 3D models for video games."  But out of all of it we do use moddelling, Rendering, animating, virtual effects, digital sculpting, compositing and the excellent simulations.
 
+<h2>General Blender Info</h2>
+
+When you first open Bkender you might be intimidated. Yes this is a professional software. So there are a lot of options. buttons and in general things to see. But lets go it through one by one:
+First the big part eith the 3-Dimensional Grid, a Cube (in the Blender community often refered as the evil default cube) and two strange objcts out of wire (a camera and a point light source). On the right is a bar, wich is split in two: a objects list (this shows all objects in your "scene"). Here we find the now known three objects: Camera (Camera icon), Cube (Mesh icon) and Light (pooint light source icon). Thats the most iportant for now. 
+We´d recommend following some beginner tutorials. Here are our recomended YouTube chanels:
+
+<ul>
+	<li>
+	Polyfjord (https://www.youtube.com/@Polyfjord/featured)
+	</li>
+</ul>
+
+Jup, that´s all. We now there is Bledner Guru and his absolutely most know "Beginner Blender Tutorial" (wich he redoes with every Blender Version) and you can do that. Although Polyfjord does not claim to make beginner tutorials, he explains everything and is absolutely beginner friendly. And he has a lot of really, really interesting projects (so interesting that we more often than not just watch them for the idea, and to look how he does it). But one thing is important: "One musn´t never ever in now way and not even think ´bout it that ´tis good of an idea to just watch something and not absorb every single world like a sponge and never just watch and just watch without understanding" (P. Definetelly not made up L. 5/29)
+
 <h2>simualtions<h2>
 
 There are multiple types of simulations: Fur, Explode, Smoke and Liquid. Here are a few examples:
