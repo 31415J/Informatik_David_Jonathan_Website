@@ -4,3 +4,19 @@ Heading-color : rgb(240,240,240);
 h2-color : rgb(230,230,230);
 h3-color : rgb(220,220,220);
 border-radus : 15px
+
+
+Themed Colors:
+3D-Moddeling: rgb(238, 150, 75)
+Animation: rgb(50, 168, 82)
+digital sculpting: rgb(237, 101, 74)
+visual effects: rgb(237, 185, 74)
+rendering: rgb(223, 240, 240)
+compositing: rgb(222, 153, 184)
+motion tracking: rgb(39, 35, 84)
+drawing: rgb(
+2D animation: rgb(
+video editing: rgb(
+procedural generation: rgb(
+simulation: rgb(
+None desruktive Workflows: rgb(
