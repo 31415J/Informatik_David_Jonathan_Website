@@ -487,7 +487,11 @@ header{
 
 
 .content-box p{
-  line-height: 1.4;
+  line-height: 1.5;
+  max-width: 800px;
+  font-size: large;
+
+  
   
 }
 
@@ -501,7 +505,7 @@ header{
 
 .content-box{
   background-color: var(--accent-color-bg);
-  padding: 20px;
+  padding: 40px;
   border-radius: 20px;
 }
 
