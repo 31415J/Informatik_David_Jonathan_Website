@@ -87,6 +87,7 @@ Just in case sth. is broken
   --text-color: rgb(10,20,30);
   --text-color-light: rgb(10,20,30);
   --text-color-inverted: rgb(230,230,230);
+  --text-color-box: rgb(10,20,30);
 
   --selection: rgb(28,28,40);
   --selection-bg: rgb(240,240,240);
@@ -148,7 +149,7 @@ Just in case sth. is broken
   --animation: rgb(50, 168, 82);
   --digital-sculpting: rgb(237, 101, 74);
   --visual-effects: rgb(237, 185, 74);
-  --rendering: rgb(223, 240, 240);
+  --rendering: rgb(188, 204, 204);
   --compositing: rgb(222, 153, 184);
   --motion-tracking: rgb(39, 35, 84);
 
@@ -176,7 +177,7 @@ Just in case sth. is broken
     
     --text-color: rgb(230,230,230);
     --text-color-inverted: rgb(10,20,30);
-
+    --text-color-box: rgb(10,20,30);
     --selection: rgb(28,28,40);;
     --selection-bg: rgb(240,240,240);
 
@@ -527,7 +528,7 @@ header{
 
 
 .content-gallery-container-box h3{
-  color: var(--text-color-inverted);
+  color: var(--text-color-box);
   font-size: 200%;
   font-weight:500 ;
   margin: 0px;

@@ -45,7 +45,7 @@ https://en.wikipedia.org/wiki/Blender_(software): My genaral source.
 
 
 
-Images:
+Blend-files:
 
 title/name: (Anim) 03 Sierra Dragon by Pepe Sanchez
 license: CC-BY   link: https://creativecommons.org/licenses/by/4.0/
@@ -55,4 +55,21 @@ created: ?
 description: A Sample iamge for the drawing and grease pencil
 link: https://studio.blender.org/training/grease-pencil-fundamentals/612412fb92d84ca3d667c874/
 
+title/name: (Anim) 03 Oil Girl by Rocio Montiel for 2.82 or above
+license: CC-BY   link: https://creativecommons.org/licenses/by/4.0/
+author: Daniel Martinez Lara    link: /
+download: 30.05.2026 21:40
+created: ?
+description: A Sample iamge for the drawing and grease pencil
+link: https://studio.blender.org/training/grease-pencil-fundamentals/6057a4b0efa8083540377064/
 
+
+Julien Kaspar
+
+title/name: Week 4 - Blender file
+license: CC-BY   link: https://creativecommons.org/licenses/by/4.0/
+author: Julien Kaspar    link: /
+download: 30.05.2026 21:58
+created: ?
+description: A Sample iamge for the sculpting
+link: https://studio.blender.org/training/speed-sculpting/5c9a2fa7525589557decf7bc/
