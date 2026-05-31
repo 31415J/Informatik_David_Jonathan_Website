@@ -160,19 +160,23 @@ Just in case sth. is broken
   --nd: rgb(80, 180, 150);
 */
 /*Theme colors v2*/
-  --moddeling: hsl(28, 83%, 61%);
-  --animation: hsl(136, 83%, 61%);
-  --digital-sculpting: hsl(10, 83%, 61%);
-  --visual-effects: hsl(41, 83%, 61%);
-  --rendering: hsl(180, 83%, 61%);
-  --compositing: hsl(201, 83%, 61%);
-  --motion-tracking: hsl(101, 83%, 61%);
-  --drawing: hsl(50, 83%, 61%);
-  --two-d-animation: hsl(218, 83%, 61%);
-  --video-editing: hsl(300, 83%, 61%);
-  --procedural-generation: hsl(77, 83%, 61%);
-  --simulation: hsl(23, 83%, 61%);
-  --nd: hsl(162, 83%, 61%);
+
+  --saturation: 70%;
+  --luminance: 70%;
+
+  --moddeling: hsl(28, var(--saturation),var(--luminance));
+  --animation: hsl(136, var(--saturation),var(--luminance));
+  --digital-sculpting: hsl(10, var(--saturation),var(--luminance));
+  --visual-effects: hsl(41, var(--saturation),var(--luminance));
+  --rendering: hsl(180, var(--saturation),var(--luminance));
+  --compositing: hsl(201,var(--saturation),var(--luminance));
+  --motion-tracking: hsl(101, var(--saturation),var(--luminance));
+  --drawing: hsl(50, var(--saturation),var(--luminance));
+  --two-d-animation: hsl(218, var(--saturation),var(--luminance));
+  --video-editing: hsl(300, var(--saturation),var(--luminance));
+  --procedural-generation: hsl(77, var(--saturation),var(--luminance));
+  --simulation: hsl(23, var(--saturation),var(--luminance));
+  --nd: hsl(162, var(--saturation),var(--luminance));
 
 
 
