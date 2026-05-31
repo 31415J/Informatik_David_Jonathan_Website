@@ -52,3 +52,28 @@ Be suprised, we do indeediously do uses cookies,... but only few, we promise. So
 
 SEARCHBAR_NOFUNCTION:
 You searched for [put search here] and we ourself can´t find it either :( . Or maybe we are just to lazy to make it function.
+
+ACCOUNT [instructions in "[]"]:
+
+This page was only intended to fill the sidebar/menubar and not for anyone to click on. But since you are here now, we can at least pretend to have something account-ish.
+Just fill the non-functioning input fields below.
+
+Your internet Code name:
+[Field]
+
+Your "I´m definitely 18" field (let me guess: 01.01.2000)
+[Field]
+
+Little math. What is the last digit of Pi:
+[Field]
+
+Your new "I will definitely remember" word (I am ready to reply to your password reset request)
+[Field]
+
+Where can we spam you with all new discounts and very important messages:
+[Field]
+
+[checkbox] I accept the non existing Terms of Policy and Privacy Service
+[checkbox] I want to get nontified when the creation of this account fails successfully [makes an warning pop up when create account was pressed, that you can start to fill the fields again (empties everything even without this checked]
+
+[Button] Create Account 
