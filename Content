@@ -25,6 +25,24 @@ There are multiple types of simulations: Fur, Explode, Smoke and Liquid. Here ar
 
 The Fluid Simulation uses the LBM (Lattice Boltzmann Methods) to simualte. (We dont need to tell such stuuf)
 
+Fire simulations (and simualtions in general) are very cool! A fire simulation is one of those. Because Blender is Blender it has a ton of different prameters that you can change to shape the simulation hopefully into what you want. But all those paramters can make it hard at first. But here are a few of the most important ones that you should look for at first:
+
+<h4>Inside the flow object:</h4>
+Flow type
+Flow behaviour
+Smoke Color
+Fuel
+Initial velocity
+
+<h4>Inside the Domain:</h4>
+Resolution Division
+Time Scale
+Boarder Collisions
+Adaptive Domain
+Dissolve 
+Noise
+Fire
+Cache
 
 
 COOKIE_BANNER_TEXT:
