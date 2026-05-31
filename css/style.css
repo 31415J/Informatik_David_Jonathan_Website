@@ -572,15 +572,22 @@ header{
   padding-left: 30px;
 }
 
-
+.sources{
+  line-height: 1.3;
+}
 
 .category-impressum{
   font-size: large;
   
 }
+.sources span{
+  font-size: medium;
+  font-weight: bolder;
+}
 
-
-
+.sources i {
+  font-size: small;
+}
 
 
 
