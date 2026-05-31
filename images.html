@@ -1,0 +1,339 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Blender basic</title>
+
+	<link rel="stylesheet" href="css/style.css">
+	
+	<!-- addad a basic favicon (need to be changed), doesn't work on safari :-(-->
+	<link rel="icon" type="image/png" href="Icons/favicon.png">
+
+
+
+
+	<!-- Google Font stuff: -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Lora">
+
+	
+	
+
+
+</head>
+ 
+<body class="darkmode">
+
+	<div class="cookie-banner">
+		Be suprised, we do indeediously do uses cookies,... but only few, we promise. So here is our offer: Do you except our delicous, just out of the oven, creamy, chocolate cookies? ...That contain your data... no, take that out!
+		<button class="cookie_accept">Accept</button>
+		<button class="cookie-refuse" style="background-color: grey; " onclick="refuse_cookie_banner()">Refuse</button>
+	</div>
+
+	<header>
+
+		<div class="heading">
+			Blender Overview
+
+		</div>
+
+	</header>
+
+	<div class="menubar">
+		<a>
+		<div class="menubar-element">
+
+				
+				<div class="icon">
+					<div class="search" onclick="search()">
+						<img src="Icons/search_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="Search icon">
+					</div>
+				</div>
+				
+
+				<div class="menubar-element-title">
+					<!-- oninput="cookie_sign()" onkeydown="cookie_sign()" onblur="cookie_sign()" onfocus="cookie_sign()"-->
+					<input type="text" placeholder="search.." @keydown.escape="search = false"></input>
+				</div>
+
+
+		</div>
+		</a>
+		<a href="index.html">
+			<div class="menubar-element">
+
+
+				<div class="icon">
+					<img src="Icons/home_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="Home icon">
+				</div>
+				
+
+				<div class="menubar-element-title">
+					Home
+				</div>
+
+
+			</div>
+		</a>
+		
+		<a href="images.html">
+			<div class="menubar-element">
+				<div class="icon">
+					<img src="Icons/image_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="Impressum icon">
+				</div>
+				<div class="menubar-element-title">
+					Images
+				</div>
+			</div>
+		</a>
+
+		<a href="impressum.html">
+			<div class="menubar-element">
+				<div class="icon">
+					<img src="Icons/contacts_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="Impressum icon">
+				</div>
+				<div class="menubar-element-title">
+					Impressum
+				</div>
+			</div>
+		</a>
+		<a href="start.html">
+			<div class="menubar-element">
+				<div class="icon">
+					<img src="Icons/rocket_launch_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="Impressum icon">
+				</div>
+				<div class="menubar-element-title">
+					Getting Started
+				</div>
+			</div>
+		</a>
+
+		
+		<a href="sitemap.html">
+			<div class="menubar-element">
+				<div class="icon">
+					<img src="Icons/automation_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="Sitemap icon">
+				</div>
+				<div class="menubar-element-title">
+					Sitemap
+				</div>
+			</div>
+		</a>
+
+		<a href="https://www.apple.com" >
+			<div class="menubar-element" style="position: relative; bottom: 0px;">
+				<div class="icon">
+					<img src="Icons/account_circle_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="Account icon">
+				</div>
+				<div class="menubar-element-title">
+					Account
+				</div>
+			</div>
+		</a>
+		
+		
+
+
+	</div>
+
+
+
+
+	<div class="content">
+		<div w3-include-html="start.html"></div> 
+
+		<div class="test-accent">
+			<h1>
+				Our Projects
+			</h1>
+		</div>
+		On this page we'll show you <b>some</b> of our projects we have done so far
+		
+
+		
+		<br>
+		<br>
+		<br>
+		<div class="content-container">
+			<div class="content-box">
+				<div class="test-accent">
+					<h2>
+						Project name
+					</h2>
+				</div>
+				Here Stands what hte project is about
+				<div class="image-gallery">
+
+					<img src="img/img-36.jpeg" alt="roboter Project rendering">
+				</div>
+
+			</div>
+			
+			
+
+		</div>
+		<br>
+		<br>
+		<h2 style="text-align: center;">Features:</h2>
+		<br>
+		<div class="content-gallery-container">
+			<div class="content-gallery-container-box" style="background-color: var(--moddeling);">
+				<h3>moddelling</h3>
+					<img src="img/robot_27.png" alt="modelling example">
+				
+
+			</div>
+			<div class="content-gallery-container-box" style="background-color: var(--animation);">
+				<h3>Animation</h3>
+					<img src="img/img-39.jpeg" alt="modelling example">
+				
+
+			</div>
+			<div class="content-gallery-container-box" style="background-color: var(--digital-sculpting);">
+				<h3>digital Sculpting</h3>
+					<img src="img/digital_sculpting.jpg" alt="modelling example">
+				
+
+			</div>
+			<div class="content-gallery-container-box" style="background-color: var(--visual-effects);">
+				<h3>visual effects</h3>
+					<img src="img/charge_wallpaper.jpg" alt="modelling example">
+				
+
+			</div>
+			<div class="content-gallery-container-box" style="background-color: var(--rendering);">
+				<h3>rendering</h3>
+					<img src="img/img-18.jpeg" alt="modelling example">
+				
+
+			</div>
+			<div class="content-gallery-container-box" style="background-color: var(--compositing);">
+				<h3>compositing</h3>
+					<img src="img/Compositing.jpeg" alt="modelling example">
+				
+
+			</div>
+			<div class="content-gallery-container-box" style="background-color: var(--motion-tracking);">
+				<h3>motion tracking</h3>
+					<img src="img/img-9.jpeg" alt="modelling example">
+				
+
+			</div>
+			<!-- I took that out so the columns are equal
+			<div class="content-gallery-container-box" style="background-color: var(--drawing);">
+				<h3><div class="color-helper">drawing</div></h3>
+					<img src="img/drawing.png" alt="modelling example">
+			</div>
+			-->
+			
+			<div class="content-gallery-container-box"style="background-color: var(--two-d-animation);">
+				<h3><div class="color-helper">2D animation</div></h3>
+					<img src="img/Drawing and 2d anim.jpeg" alt="modelling example">
+				
+
+			</div>
+			<div class="content-gallery-container-box" style="background-color: var(--video-editing);">
+				<h3><div class="color-helper">video editing</div></h3>
+					<img src="img/blender-vse.jpeg" alt="modelling example">
+				
+
+			</div>
+			<div class="content-gallery-container-box" style="background-color: var(--procedural-generation);">
+				<h3><div class="color-helper">procedural generation</div></h3>
+					<img src="img/img-22.jpeg" alt="modelling example">
+				
+
+			</div>
+			<div class="content-gallery-container-box" style="background-color: var(--simulation);">
+				<h3><div class="color-helper">simulation</div></h3>
+					<img src="img/img-29.jpeg" alt="modelling example">
+				
+
+			</div>
+			<div class="content-gallery-container-box" style="background-color: var(--nd);">
+				<h3><div class="color-helper">None desruktive Workflows</div></h3>
+					<img src="img/procedural.jpeg" alt="modelling example">
+				
+
+			</div>
+		</div>
+
+
+
+
+
+		<br>
+		<br>
+		<p style="margin-bottom: 1200px;">
+		place for scrolling ....
+		</p>
+	</div>
+	
+
+	<footer>
+
+		
+		©2026 by David und Jonathan
+		
+		<div class="buttons">
+			<button id="theme-switch" onclick="trigger_theme_switch()">
+				
+				<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M480-120q-151 0-255.5-104.5T120-480q0-138 90-239.5T440-838q13-2 23 3.5t16 14.5q6 9 6.5 21t-7.5 23q-17 26-25.5 55t-8.5 61q0 90 63 153t153 63q31 0 61.5-9t54.5-25q11-7 22.5-6.5T819-479q10 5 15.5 15t3.5 24q-14 138-117.5 229T480-120Zm0-80q88 0 158-48.5T740-375q-20 5-40 8t-40 3q-123 0-209.5-86.5T364-660q0-20 3-40t8-40q-78 32-126.5 102T200-480q0 116 82 198t198 82Zm-10-270Z"/></svg>
+				<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M565-395q35-35 35-85t-35-85q-35-35-85-35t-85 35q-35 35-35 85t35 85q35 35 85 35t85-35Zm-226.5 56.5Q280-397 280-480t58.5-141.5Q397-680 480-680t141.5 58.5Q680-563 680-480t-58.5 141.5Q563-280 480-280t-141.5-58.5ZM80-440q-17 0-28.5-11.5T40-480q0-17 11.5-28.5T80-520h80q17 0 28.5 11.5T200-480q0 17-11.5 28.5T160-440H80Zm720 0q-17 0-28.5-11.5T760-480q0-17 11.5-28.5T800-520h80q17 0 28.5 11.5T920-480q0 17-11.5 28.5T880-440h-80ZM451.5-771.5Q440-783 440-800v-80q0-17 11.5-28.5T480-920q17 0 28.5 11.5T520-880v80q0 17-11.5 28.5T480-760q-17 0-28.5-11.5Zm0 720Q440-63 440-80v-80q0-17 11.5-28.5T480-200q17 0 28.5 11.5T520-160v80q0 17-11.5 28.5T480-40q-17 0-28.5-11.5ZM226-678l-43-42q-12-11-11.5-28t11.5-29q12-12 29-12t28 12l42 43q11 12 11 28t-11 28q-11 12-27.5 11.5T226-678Zm494 495-42-43q-11-12-11-28.5t11-27.5q11-12 27.5-11.5T734-282l43 42q12 11 11.5 28T777-183q-12 12-29 12t-28-12Zm-42-495q-12-11-11.5-27.5T678-734l42-43q11-12 28-11.5t29 11.5q12 12 12 29t-12 28l-43 42q-12 11-28 11t-28-11ZM183-183q-12-12-12-29t12-28l43-42q12-11 28.5-11t27.5 11q12 11 11.5 27.5T282-226l-42 43q-11 12-28 11.5T183-183Zm297-297Z"/></svg>
+
+				<!-- The Auto toggle mode: <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M346-160H240q-33 0-56.5-23.5T160-240v-106l-77-78q-11-12-17-26.5T60-480q0-15 6-29.5T83-536l77-78v-106q0-33 23.5-56.5T240-800h106l78-77q12-11 26.5-17t29.5-6q15 0 29.5 6t26.5 17l78 77h106q33 0 56.5 23.5T800-720v106l77 78q11 12 17 26.5t6 29.5q0 15-6 29.5T877-424l-77 78v106q0 33-23.5 56.5T720-160H614l-78 77q-12 11-26.5 17T480-60q-15 0-29.5-6T424-83l-78-77Zm34-80 100 100 100-100h140v-140l100-100-100-100v-140H580L480-820 380-720H240v140L140-480l100 100v140h140Zm100-40q83 0 141.5-58.5T680-480q0-83-58.5-141.5T480-680v400Z"/></svg> -->
+			</button>
+			<button id="theme-switch" onclick="cookie_sign()" style="right: 75px;">
+				<svg xmlns="http://www.w3.org/2000/svg" height="56px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-81 33.5-157.5t93-134.5Q266-830 348-860t180-18q15 2 23 12.5t9 28.5q2 64 47.5 109.5T716-680q21 1 32 12t12 34q2 42 25.5 69t65.5 41q14 5 21.5 14.5T880-486q2 83-29 157t-85 129.5Q712-144 638-112T480-80Zm0-80q122 0 216.5-84T800-458q-50-22-78.5-60T683-603q-77-11-132-66t-68-132q-80-2-140.5 29t-101 79.5Q201-644 180.5-587T160-480q0 133 93.5 226.5T480-160Zm0-324Zm-60-76q25 0 42.5-17.5T480-620q0-25-17.5-42.5T420-680q-25 0-42.5 17.5T360-620q0 25 17.5 42.5T420-560Zm-80 200q25 0 42.5-17.5T400-420q0-25-17.5-42.5T340-480q-25 0-42.5 17.5T280-420q0 25 17.5 42.5T340-360Zm260 40q17 0 28.5-11.5T640-360q0-17-11.5-28.5T600-400q-17 0-28.5 11.5T560-360q0 17 11.5 28.5T600-320Z"/></svg>
+
+				<svg xmlns="http://www.w3.org/2000/svg" height="56px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-81 33.5-157.5t93-134.5Q266-830 348-860t180-18q15 2 23 12.5t9 28.5q2 64 47.5 109.5T716-680q21 1 32 12t12 34q2 42 25.5 69t65.5 41q14 5 21.5 14.5T880-486q2 83-29 157t-85 129.5Q712-144 638-112T480-80Zm0-80q122 0 216.5-84T800-458q-50-22-78.5-60T683-603q-77-11-132-66t-68-132q-80-2-140.5 29t-101 79.5Q201-644 180.5-587T160-480q0 133 93.5 226.5T480-160Zm0-324Zm-60-76q25 0 42.5-17.5T480-620q0-25-17.5-42.5T420-680q-25 0-42.5 17.5T360-620q0 25 17.5 42.5T420-560Zm-80 200q25 0 42.5-17.5T400-420q0-25-17.5-42.5T340-480q-25 0-42.5 17.5T280-420q0 25 17.5 42.5T340-360Zm260 40q17 0 28.5-11.5T640-360q0-17-11.5-28.5T600-400q-17 0-28.5 11.5T560-360q0 17 11.5 28.5T600-320Z"/></svg>
+				<!-- The Auto toggle mode: <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M346-160H240q-33 0-56.5-23.5T160-240v-106l-77-78q-11-12-17-26.5T60-480q0-15 6-29.5T83-536l77-78v-106q0-33 23.5-56.5T240-800h106l78-77q12-11 26.5-17t29.5-6q15 0 29.5 6t26.5 17l78 77h106q33 0 56.5 23.5T800-720v106l77 78q11 12 17 26.5t6 29.5q0 15-6 29.5T877-424l-77 78v106q0 33-23.5 56.5T720-160H614l-78 77q-12 11-26.5 17T480-60q-15 0-29.5-6T424-83l-78-77Zm34-80 100 100 100-100h140v-140l100-100-100-100v-140H580L480-820 380-720H240v140L140-480l100 100v140h140Zm100-40q83 0 141.5-58.5T680-480q0-83-58.5-141.5T480-680v400Z"/></svg> -->
+			</button>
+			<button id="theme-switch" onclick="top_function()" id="up_button" style="right: 135px;">
+				<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M440-647 244-451q-12 12-28 11.5T188-452q-11-12-11.5-28t11.5-28l264-264q6-6 13-8.5t15-2.5q8 0 15 2.5t13 8.5l264 264q11 11 11 27.5T772-452q-12 12-28.5 12T715-452L520-647v447q0 17-11.5 28.5T480-160q-17 0-28.5-11.5T440-200v-447Z"/></svg>
+
+				<svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M440-647 244-451q-12 12-28 11.5T188-452q-11-12-11.5-28t11.5-28l264-264q6-6 13-8.5t15-2.5q8 0 15 2.5t13 8.5l264 264q11 11 11 27.5T772-452q-12 12-28.5 12T715-452L520-647v447q0 17-11.5 28.5T480-160q-17 0-28.5-11.5T440-200v-447Z"/></svg>
+				<!-- The Auto toggle mode: <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M346-160H240q-33 0-56.5-23.5T160-240v-106l-77-78q-11-12-17-26.5T60-480q0-15 6-29.5T83-536l77-78v-106q0-33 23.5-56.5T240-800h106l78-77q12-11 26.5-17t29.5-6q15 0 29.5 6t26.5 17l78 77h106q33 0 56.5 23.5T800-720v106l77 78q11 12 17 26.5t6 29.5q0 15-6 29.5T877-424l-77 78v106q0 33-23.5 56.5T720-160H614l-78 77q-12 11-26.5 17T480-60q-15 0-29.5-6T424-83l-78-77Zm34-80 100 100 100-100h140v-140l100-100-100-100v-140H580L480-820 380-720H240v140L140-480l100 100v140h140Zm100-40q83 0 141.5-58.5T680-480q0-83-58.5-141.5T480-680v400Z"/></svg> -->
+			</button>
+		</div>
+	</footer>
+
+
+
+<script>
+
+	function trigger_theme_switch(){
+		var element = document.body;
+		element.classList.toggle("darkmode")
+	}
+	function cookie_sign(){
+		
+		window.alert("when you click close, a cookie banner should appear. First we wanted to let it pop up automaticly, but over time it`s getting annoying. (It`s sadly not possible to store that information in a cookie, because cookies work only on Websites and not on local files :( )");
+		cookie_show();
+	}
+	function search(){
+		window.alert("You searched for [put search here] and we ourself cant find it either :( . Or maybe we are just to lazy to make it function.");
+	}
+	function refuse_cookie_banner(){
+		window.alert("ouch! you have seen the refuse button. GRRR EU-regulations!");
+
+		window.close();
+	}
+
+</script>
+<script src="main.js"></script>
+
+
+	
+
+</body>
+
+</html>

@@ -607,8 +607,26 @@ header{
 }
 
 
+.content-container .content-box .image-gallery {
+  width: 50%;
+  border: 0;
+  margin: 20px;
+  padding: 0;
+  float: right;
+  display: flex;
 
 
+}
+
+.content-container .content-box .image-gallery img{
+  width: 50%;
+  border: 0;
+  margin: 20px;
+  padding: 0;
+  float: right;
+
+
+}
 
 
 
