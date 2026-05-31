@@ -10,3 +10,4 @@ What needs to be done:
 
 
 
+This was mainly tested on a Mac with MacOS 26.5 with Firefox, Safari, Google Chrome, (DuckDuckGo didn't worked because linking the css failed). The Website is made for an screen in Full HD resolution (work also for different devices, but it should work best on those.)

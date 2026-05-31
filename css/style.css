@@ -522,7 +522,8 @@ header{
   background-color: var(--accent-color-bg);
   padding: 10px;
   border-radius: calc(var(--border-radius-slight) + 5px);
-  width: 500px;
+  width: 30%;
+  min-width: 400px;
 
 }
 
@@ -538,9 +539,9 @@ header{
 
 .content-gallery-container-box img{
   width: 100%;
-  height: calc(100% - 60px);
+  height: calc(100% - 56px);
   background-color: var(--background-color);
-  border-radius: calc(var(--border-radius-slight) + 3px);
+  border-radius: calc(var(--border-radius-slight) + 2px);
   margin-bottom: 0;
   object-fit: cover;
   transition: 0.3s;

@@ -20,10 +20,14 @@ function top_function() {
 cookie_button.addEventListener("click", () => {
     cookie_container.classList.remove("active");
 });
-
+/*
 setTimeout(() => {
     cookie_container.classList.add("active");
 }, 500);
+*/
+function cookie_show() {
+  cookie_container.classList.add("active");
+}
 
 
 

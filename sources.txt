@@ -63,9 +63,6 @@ created: ?
 description: A Sample iamge for the drawing and grease pencil
 link: https://studio.blender.org/training/grease-pencil-fundamentals/6057a4b0efa8083540377064/
 
-
-Julien Kaspar
-
 title/name: Week 4 - Blender file
 license: CC-BY   link: https://creativecommons.org/licenses/by/4.0/
 author: Julien Kaspar    link: /
@@ -73,3 +70,34 @@ download: 30.05.2026 21:58
 created: ?
 description: A Sample iamge for the sculpting
 link: https://studio.blender.org/training/speed-sculpting/5c9a2fa7525589557decf7bc/
+
+title/name: Ellie
+license: CC-BY   link: https://creativecommons.org/licenses/by/4.0/
+author: Demeter Dzadik    link: /
+download: ?
+created: 2021
+description: A Sample iamge for the animation
+link: https://studio.blender.org/characters/ellie/v1/
+
+title/name: Ellie
+license: CC-BY   link: https://creativecommons.org/licenses/by/4.0/
+author: Blender Studio    link: https://studio.blender.org/
+download: ?
+created: ?
+description: A Sample iamge for the Visual Effects
+link: https://www.blender.org/download/demo/splash/blender-3.4-splash.zip
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+All the other images are our own renders or screenshots. You are explicitly not allowed to use them to train ANY (!) AI algorithem/model/app/software.
