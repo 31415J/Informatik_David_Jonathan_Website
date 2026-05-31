@@ -150,8 +150,14 @@ Just in case sth. is broken
   --digital-sculpting: rgb(237, 101, 74);
   --visual-effects: rgb(237, 185, 74);
   --rendering: rgb(188, 204, 204);
-  --compositing: rgb(222, 153, 184);
-  --motion-tracking: rgb(39, 35, 84);
+  --compositing: rgb(17, 212, 141);
+  --motion-tracking: rgb(76, 129, 52);
+  --drawing: rgb(200, 180, 80);
+  --two-d-animation: rgb(85, 120, 180);
+  --video-editing: rgb(160, 100, 160);
+  --procedural-generation: rgb(164, 205, 62);
+  --simulation: rgb(190, 100, 43);
+  --nd: rgb(80, 180, 150);
 
 
 

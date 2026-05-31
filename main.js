@@ -1,20 +1,19 @@
 const cookie_container = document.querySelector(".cookie-banner");
 const cookie_button = document.querySelector(".cookie_accept");
 let mybutton = document.getElementById("up_button");
+var rootElement = document.documentElement
 window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
+
 
 
 function top_function() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+
+  rootElement.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  })
+
 }
 
 cookie_button.addEventListener("click", () => {

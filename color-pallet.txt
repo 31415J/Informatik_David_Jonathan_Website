@@ -12,9 +12,9 @@ Animation: rgb(50, 168, 82)
 digital sculpting: rgb(237, 101, 74)
 visual effects: rgb(237, 185, 74)
 rendering: rgb(223, 240, 240)
-compositing: rgb(222, 153, 184)
+compositing: rgb(17, 212, 141)
 motion tracking: rgb(39, 35, 84)
-drawing: rgb(
+drawing: rgb(155, 105, 225)
 2D animation: rgb(
 video editing: rgb(
 procedural generation: rgb(
