@@ -144,7 +144,7 @@ Just in case sth. is broken
 
 
 
-  /*Theme colors*/
+  /*Theme colors
   --moddeling: rgb(238, 150, 75);
   --animation: rgb(50, 168, 82);
   --digital-sculpting: rgb(237, 101, 74);
@@ -158,8 +158,21 @@ Just in case sth. is broken
   --procedural-generation: rgb(164, 205, 62);
   --simulation: rgb(190, 100, 43);
   --nd: rgb(80, 180, 150);
-
-
+*/
+/*Theme colors v2*/
+  --moddeling: hsl(28, 83%, 61%);
+  --animation: hsl(136, 83%, 61%);
+  --digital-sculpting: hsl(10, 83%, 61%);
+  --visual-effects: hsl(41, 83%, 61%);
+  --rendering: hsl(180, 83%, 61%);
+  --compositing: hsl(201, 83%, 61%);
+  --motion-tracking: hsl(101, 83%, 61%);
+  --drawing: hsl(50, 83%, 61%);
+  --two-d-animation: hsl(218, 83%, 61%);
+  --video-editing: hsl(300, 83%, 61%);
+  --procedural-generation: hsl(77, 83%, 61%);
+  --simulation: hsl(23, 83%, 61%);
+  --nd: hsl(162, 83%, 61%);
 
 
 
