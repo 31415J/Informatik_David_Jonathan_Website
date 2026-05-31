@@ -607,19 +607,23 @@ header{
 }
 
 
-.content-container .content-box .image-gallery {
-  width: 50%;
-  border: 0;
-  margin: 20px;
-  padding: 0;
-  float: right;
+.content-container .content-box .image-project-gallery{
+
   display: flex;
+  font-size: larger;
+  gap: 60px;
 
 
 }
+.content-container .content-box p{
 
+  display: flex;
+  font-size: larger;
+
+
+}
 .content-container .content-box .image-gallery img{
-  width: 50%;
+  width: 100%;
   border: 0;
   margin: 20px;
   padding: 0;
@@ -627,7 +631,9 @@ header{
 
 
 }
-
+.left-side{
+  width: 50%;
+}
 
 
 
