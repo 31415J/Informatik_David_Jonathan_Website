@@ -235,11 +235,11 @@ body::selection{
 
 /*Scrollbar*/
 ::-webkit-scrollbar {
-  width: 2vh;
+  width: 1vh;
 }
 
 ::-webkit-scrollbar:hover {
-  width: 6vh;
+  width: 1vh;
 }
 
 
@@ -615,13 +615,7 @@ header{
 
 
 }
-.content-container .content-box p{
 
-  display: flex;
-  font-size: larger;
-
-
-}
 .content-container .content-box .image-gallery img{
   width: 100%;
   border: 0;
