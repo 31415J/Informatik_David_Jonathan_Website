@@ -858,3 +858,15 @@ footer{
   bottom: 0px;
 
 }
+
+
+.sitemap{
+  line-height: 1.7;
+  
+
+}
+
+.sitemap a{
+  font-size: larger;
+  font-weight: bold;
+}
