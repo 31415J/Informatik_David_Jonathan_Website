@@ -366,8 +366,24 @@ header .heading {
 	transition-delay: 0.5s;
   transition: 0.3s;
 }
+.menubar a .icon .search img{
+	transition-delay: 0.6s;
+  transition-duration: 0.4s;
+  
+}
+
+.menubar:hover a .icon .search img{
+	background-color: rgba(4, 27, 22, 0.3);
+  border-radius: 500px;
+  padding: 2px;
+  margin: 0;
+
+}
+.menubar:hover a .icon .search img:hover{
+	background-color: rgb(53, 149, 128);
 
 
+}
 /*
 .menubar-element .icon{
 	text-align: center;
