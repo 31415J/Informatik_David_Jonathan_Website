@@ -29,7 +29,16 @@ function cookie_show() {
 }
 
 
+function createAccount(){
+  document.getElementById('name').value = '';
+  document.getElementById('date').value = '';
+  document.getElementById('calc').value = '';
+  document.getElementById('password').value = '';
+  document.getElementById('contact').value = '';
+  window.alert("Status: Failed \n Please retry in some decades \n Your input is going to be deleted")
+  
 
+}
 
 function trigger_theme_switch(){
 	var element = document.body;
