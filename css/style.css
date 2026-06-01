@@ -764,7 +764,7 @@ footer{
   border: 0;
 
   letter-spacing: 2px;
-  width: calc(100% - 100px);
+  width: calc(100% - 250px);
 }
 .account-page button{
   background-color: var(--accent-color-bg);
