@@ -79,7 +79,7 @@ Just in case sth. is broken
 	--accent-color-bg: rgb(187, 203, 218);
 	--accent-color-bg-hover: rgb(180, 196, 212);
 	--accent-color: rgb(54, 190, 248);
-  --accent-color-hover: rgb(97, 202, 248);
+  --accent-color-hover: rgb(54, 190, 248);
 
 	--text-color-heading: rgb(35, 37, 37);
 
@@ -88,6 +88,10 @@ Just in case sth. is broken
   --text-color-light: rgb(10,20,30);
   --text-color-inverted: rgb(230,230,230);
   --text-color-box: rgb(10,20,30);
+
+  --link-color:hsl(198, 93%, 40%);
+  --link-color-hover:hsl(198, 93%, 59%);
+
 
   --selection: rgb(28,28,40);
   --selection-bg: rgb(240,240,240);
@@ -203,6 +207,9 @@ Just in case sth. is broken
     --text-color-box: rgb(10,20,30);
     --selection: rgb(28,28,40);;
     --selection-bg: rgb(240,240,240);
+
+    --link-color:rgb(54, 190, 248);
+    --link-color-hover:hsl(198, 93%, 70%);
 
     --transparent: rgba(255,255,255,0);
 
@@ -516,10 +523,15 @@ header{
 
 .content a {
   text-decoration: none;
-  color: var(--accent-color);
+  color: var(--link-color);
   font-weight: 500;
   font-size: large;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content a:hover {
+
+  color: var(--link-color-hover);
+
 }
 
 .content-box img{
