@@ -233,6 +233,8 @@ body::selection{
   text-shadow: 0px 0px 6px var(--accent-color);
 }
 
+
+
 /*Scrollbar*/
 ::-webkit-scrollbar {
   width: 1vh;
@@ -264,13 +266,6 @@ body::selection{
   border-radius: 50px;
 
 }
-/*
-html {
-
-  scrollbar-color: var(--accent-color) var(--transparent);
-  scrollbar-width: auto;
-}
-*/
 
 
 
@@ -283,8 +278,6 @@ html {
   'GRAD' 300,
   'opsz' 10,
 }
-
-
 
 
 
@@ -301,13 +294,11 @@ header .heading {
 
 .menubar .heading{
 	font-family: "Chakra Petch", Courier, monospace;
-  	font-weight: 600;
-  	font-style: normal;
+  font-weight: 600;
+  font-style: normal;
 	font-size: 1.4vw;
 	color: var(--text-color-heading);
 }
-
-
 
 
 
@@ -318,7 +309,6 @@ header .heading {
 	width: var(--sidebar-width);
 	position: sticky;
   top: 10px; 
-  
 	float: left;
 	padding: 5px;
 	display: flex;
@@ -331,7 +321,6 @@ header .heading {
   transition: 0.3s;
   transition-delay: 0.4s;
   border-radius: var(--border-radius-slight);
-  /*margin-top: var(--header-height);*/
 }
 
 .menubar a{
@@ -342,18 +331,8 @@ header .heading {
   display: inline-flex;
   text-decoration: none;
   height: 28px;
-
 }
-/*
-.menubar-element {
-  border-radius: calc(var(--border-radius-slight) - 3px);
-	background-color: var(--accent-color-bg);
-	color: var(--accent-color);
-	padding: 15px;
-  display: inline-flex;
 
-}
-*/
 .menubar a .icon{
 	text-align: center;
 	filter: invert(var(--invert-icon)) sepia(var(--sepia-icon)) saturate(var(--saturate-icon)) hue-rotate(var(--hue-rotate-icon));
@@ -362,14 +341,15 @@ header .heading {
   display: flexbox;
   scale: 1.3;
 }
+
 .menubar:hover a .icon .search{
 	transition-delay: 0.5s;
   transition: 0.3s;
 }
+
 .menubar a .icon .search img{
 	transition-delay: 0.6s;
   transition-duration: 0.4s;
-  
 }
 
 .menubar:hover a .icon .search img{
@@ -377,19 +357,11 @@ header .heading {
   border-radius: 500px;
   padding: 2px;
   margin: 0;
-
 }
+
 .menubar:hover a .icon .search img:hover{
 	background-color: rgb(53, 149, 128);
-
-
 }
-/*
-.menubar-element .icon{
-	text-align: center;
-	filter: invert(0.2) sepia(1) saturate(5) hue-rotate(175deg);
-}
-*/
 
 
 .menubar a .menubar-element-title {
@@ -400,8 +372,6 @@ header .heading {
   color: rgba(0, 0, 0, 0);
 	transition-duration: 0.3s;
   transition-delay: 400ms;
-
-  
 }
 
 .menubar:hover a .menubar-element-title{
@@ -412,15 +382,11 @@ header .heading {
   font-family: Ubuntu, Arial, Helvetica, sans-serif;
   text-overflow: none;
   line-height: 1.2;
-  
-
-
 }
 
 .menubar-element-title input{
   background-color: var(--background-color);
   color: var(--text-color);
-
   border-radius: 30px;
   padding: 10px;
   border: 0;
@@ -431,28 +397,19 @@ header .heading {
 }
 
 .menubar-element:active {
-  
   background-color: var(--accent-color-bg-hover);   
 }
-
 
 
 .menubar a:hover{
-
   background-color: var(--accent-color-bg-hover);   
- 
-
-
 }
-
 
 
 .menubar-element-title input img{
   margin: 0;
   padding: 0;
-
 }
-
 
 .menubar:hover {
   width: calc(var(--sidebar-width) + 190px );
@@ -464,42 +421,12 @@ header{
   background-color: var(--accent-color-bg);
   height: var(--header-height);
   width: 100%;
-
-
 }
 
 
 
 
 /*Main content */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -535,7 +462,6 @@ header{
   
 }
 
-
 .content-container{
   display: flex;
   flex-direction: column;
@@ -563,7 +489,6 @@ header{
   border-radius: calc(var(--border-radius-slight) + 5px);
   width: 30%;
   min-width: 400px;
-
 }
 
 
@@ -650,38 +575,11 @@ header{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .test-palette-main{
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 15px;
-
-
-  
 }
 
 .test-palette{
@@ -690,8 +588,6 @@ header{
   flex-grow: 1;
   border-radius: var(--border-radius-slight);
   text-align: center;
-  
-
 
 }
 .test-palette img{
@@ -792,9 +688,6 @@ header{
 
 footer{
   background-color: var(--accent-color-bg);
-
- 
-
   position: relative;
   left: 0;
   right: 0;
@@ -821,9 +714,6 @@ footer{
   vertical-align: middle;
   margin-right: 40px;
   transition: 1s;
-
-
-
 }
 
 .cookie-banner button{
@@ -842,20 +732,16 @@ footer{
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
-
   
 }
 
 
 .cookie-banner button:hover{
-
   background-color: var(--accent-color-hover);
-
 }
 
 .active{
   bottom: 0px;
-
 }
 
 
