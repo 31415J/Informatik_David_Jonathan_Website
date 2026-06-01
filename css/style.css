@@ -870,3 +870,31 @@ footer{
   font-size: larger;
   font-weight: bold;
 }
+
+
+.account-page input{
+  background-color: var(--accent-color-bg);
+  color: var(--text-color);
+  font-size: large;
+  border-radius: 30px;
+  padding: 15px;
+  border: 0;
+
+  letter-spacing: 2px;
+  width: calc(100% - 100px);
+}
+.account-page button{
+  background-color: var(--accent-color-bg);
+  color: var(--text-color);
+  font-size: large;
+  border-radius: 390px;
+  padding: 15px;
+  border: 0;
+  align-self: center;
+  letter-spacing: 2px;
+  width: 210px;
+}
+.account-page button:hover{
+  background-color: var(--accent-color-bg-hover);
+
+}

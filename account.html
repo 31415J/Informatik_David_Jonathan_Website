@@ -5,11 +5,11 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Blender basic</title>
+	<title>Blender basic - sitemap</title>
 
 	<link rel="stylesheet" href="css/style.css">
 	
-	<!-- addad a basic favicon (need to be changed), doesn't work on safari :-(-->
+	<!-- addad a basic favicon, doesn't work on safari on local files  :-(-->
 	<link rel="icon" type="image/png" href="Icons/favicon.png">
 
 
@@ -128,7 +128,7 @@
 			</div>
 		</a>
 
-		<a href="account.html" >
+		<a href="https://www.apple.com" >
 			<div class="menubar-element" style="position: relative; bottom: 0px;">
 				<div class="icon">
 					<img src="Icons/account_circle_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="Account icon">
@@ -152,152 +152,65 @@
 
 		<div class="test-accent">
 			<h1>
-				Introduction
+				Account
 			</h1>
+			<h3>
+				
+			</h3>
 		</div>
-		First of all, what is the intention of this Website? It should show you:
-		<ul>
-			<li>
-				What Blender is
-			</li>
-			<li>
-				What you can do with it
-			</li>
-			<li>
-				How you can do it (a short overview)
-			</li>
-			<li>
-				What we have done with it
-			</li>
-		</ul>
-
-		You can just look around and maybe you find something cool or even start learning Blender
+		
+		This page was only intended to fill the sidebar/menubar and not for anyone to click on. But since you are here now, we can at least pretend to have something account-ish. Just fill the non-functioning input fields below.
 		<br>
 		<br>
+		<div class="account-page">
+			<p>Your internet Code name:</p>
+			<input placeholder="Internet Code name">
+			<br><br>
+			<p>Your "I´m definitely 18" field (let me guess: 01.01.2000)</p>
+			<input placeholder="Date of birth">
+			<br><br>
+			<p>Little math. What is the last digit of Pi:</p>
+			<input placeholder="Impossible calculation">
+			<br><br>
+			<p>Your new "I will definitely remember" word (I am ready to reply to your password reset request)</p>
+			<input placeholder="recovery key">
+			<br><br>
+			<p>Where can we spam you with all new discounts and very important messages:</p>
+			<input placeholder="contact">
+			<br><br>
+			<input
+      			type="checkbox"
+      			id="privacypolicy"
+      			name="privat"
+      			value="privat"
+				style="height: 20px; width: 20px;"
+			>
+    		<label for="subscribeNews">I accept the non existing Terms of Policy and Privacy Service</label>
+
+			<br><br>
+			<input
+      			type="checkbox"
+      			id="subscribeNews"
+      			name="subscribeNews"
+      			value="subscribeNews"
+				style="height: 20px; width: 20px;"
+			>
+    		<label for="subscribeNews">I want to get nontified when the creation of this account fails successfully <!-- [makes an warning pop up when create account was pressed, that you can start to fill the fields again (empties everything even without this checked]--></label>
+
+			<br><br>
+
+			<button id="createAccount" onclick="createAccount()">Create Account</button>
+
+
+
+		  </div>
+
+		
+		
 		<br>
-		<div class="content-container">
-			<div class="content-box">
-				<div class="test-accent">
-					<h2>
-						Overview
-					</h2>
-				</div>
-				Blender is our favorite Software for,... everything basically… it is used for <ul>
-					<li>general 3D modeling</li>
-					<li>animation</li>
-					<li>digital sculpting</li>
-					<li>visual effects</li>
-					<li>rendering</li>
-					<li>compositing</li>
-					<li>motion tracking</li>
-					<li>drawing</li>
-					<li>2D animation</li>
-					<li>video editing</li>
-					<li>procedural workflows</li>
-					<li>simulation</li>
-				</ul> 
-				It is widely used to create animated films, visual effects, art, 3D-printed models, motion graphics, interactive 3D applications, virtual reality, and 3D models for video games."  But out of all of it we do use moddelling, Rendering, animating, virtual effects, digital sculpting, compositing and the excellent simulations.
-
-
-			</div>
-			
-			
-
-		</div>
-		<br>
-		<br>
-		<h2 style="text-align: center;">Features:</h2>
-		<br>
-		<div class="content-gallery-container">
-			<div class="content-gallery-container-box" style="background-color: var(--moddeling);">
-				<h3>moddelling</h3>
-					<img src="img/robot_27.png" alt="modelling example">
-				
-
-			</div>
-			<div class="content-gallery-container-box" style="background-color: var(--animation);">
-				<h3>Animation</h3>
-					<img src="img/img-39.jpeg" alt="modelling example">
-				
-
-			</div>
-			<div class="content-gallery-container-box" style="background-color: var(--digital-sculpting);">
-				<h3>digital Sculpting</h3>
-					<img src="img/digital_sculpting.jpg" alt="modelling example">
-				
-
-			</div>
-			<div class="content-gallery-container-box" style="background-color: var(--visual-effects);">
-				<h3>visual effects</h3>
-					<img src="img/charge_wallpaper.jpg" alt="modelling example">
-				
-
-			</div>
-			<div class="content-gallery-container-box" style="background-color: var(--rendering);">
-				<h3>rendering</h3>
-					<img src="img/img-18.jpeg" alt="modelling example">
-				
-
-			</div>
-			<div class="content-gallery-container-box" style="background-color: var(--compositing);">
-				<h3>compositing</h3>
-					<img src="img/Compositing.jpeg" alt="modelling example">
-				
-
-			</div>
-			<div class="content-gallery-container-box" style="background-color: var(--motion-tracking);">
-				<h3>motion tracking</h3>
-					<img src="img/img-9.jpeg" alt="modelling example">
-				
-
-			</div>
-			<!-- I took that out so the columns are equal
-			<div class="content-gallery-container-box" style="background-color: var(--drawing);">
-				<h3><div class="color-helper">drawing</div></h3>
-					<img src="img/drawing.png" alt="modelling example">
-			</div>
-			-->
-			
-			<div class="content-gallery-container-box"style="background-color: var(--two-d-animation);">
-				<h3><div class="color-helper">2D animation</div></h3>
-					<img src="img/Drawing and 2d anim.jpeg" alt="modelling example">
-				
-
-			</div>
-			<div class="content-gallery-container-box" style="background-color: var(--video-editing);">
-				<h3><div class="color-helper">video editing</div></h3>
-					<img src="img/blender-vse.jpeg" alt="modelling example">
-				
-
-			</div>
-			<div class="content-gallery-container-box" style="background-color: var(--procedural-generation);">
-				<h3><div class="color-helper">procedural generation</div></h3>
-					<img src="img/img-22.jpeg" alt="modelling example">
-				
-
-			</div>
-			<div class="content-gallery-container-box" style="background-color: var(--simulation);">
-				<h3><div class="color-helper">simulation</div></h3>
-					<img src="img/img-29.jpeg" alt="modelling example">
-				
-
-			</div>
-			<div class="content-gallery-container-box" style="background-color: var(--nd);">
-				<h3><div class="color-helper">None desruktive Workflows</div></h3>
-					<img src="img/procedural.jpeg" alt="modelling example">
-				
-
-			</div>
-		</div>
-
-
-
-
-
 		<br>
 		<br>
 	
-	</div>
 	
 
 	<footer>
