@@ -292,7 +292,8 @@ body::selection{
 
 header .heading {
   color: var(--text-color-heading);
-  font-size: calc( var(--header-height) - 15% );
+  font-size: calc( var(--header-height) - 5% );
+  text-align: left;
   font-family: Audiowide;
   margin: 0px;
   padding-left: 30px;
