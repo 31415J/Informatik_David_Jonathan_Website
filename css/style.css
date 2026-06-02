@@ -475,13 +475,18 @@ header{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 25%;
 }
 
 .content-box{
   background-color: var(--accent-color-bg);
   padding: 40px;
   border-radius: 20px;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 25%;
 }
 
 .content-gallery-container{
@@ -569,7 +574,9 @@ header{
   display: flex;
   font-size: larger;
   gap: 90px;
-
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 25%;
 
 }
 
@@ -796,4 +803,16 @@ footer{
 .account-page button:hover{
   background-color: var(--accent-color-bg-hover);
 
+}
+
+
+@keyframes appear {
+  from{
+    opacity: 0;
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
 }
