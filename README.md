@@ -1,4 +1,4 @@
-# Informatik_David_Jonathan_Website
+# Informatik_Blender
 The Website that we develop for IT-lessons in school
 
 What needs to be done:
