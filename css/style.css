@@ -292,7 +292,7 @@ body::selection{
 
 header .heading {
   color: var(--text-color-heading);
-  font-size: calc( var(--header-height) - 30px );
+  font-size: calc( var(--header-height) - 15% );
   font-family: Audiowide;
   margin: 0px;
   padding-left: 30px;
